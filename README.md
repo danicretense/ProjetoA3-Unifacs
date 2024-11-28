@@ -70,6 +70,6 @@ O sistema oferece as seguintes funcionalidades principais:
 ---
 
 ## Autor  
-Desenvolvido por: **[Seu Nome]**  
-Disciplina: **[Nome da Disciplina]**  
-Faculdade: **[Nome da Faculdade]**  
+Desenvolvido por: **DANIELA SILVA DE JESUS, MARCOS RUAN SALGADO FRANÇA,MATHEUS ALVES MORAES,AQUINO SANTIAGO RANGEL DOS SANTOS,DANIEL GARCIA RAMOS,THIAGO CARVALHO PEREIRA**  
+Disciplina: **[Programação de soluções computacionais]**  
+Faculdade: **[Unifacs-Campus Tancredo Neves]**  
