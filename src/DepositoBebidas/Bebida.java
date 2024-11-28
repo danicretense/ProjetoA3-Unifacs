@@ -1,3 +1,4 @@
+package src.DepositoBebidas;
 public class Bebida{
   private String nome;
   private double preco;
