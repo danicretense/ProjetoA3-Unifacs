@@ -8,8 +8,14 @@ public class Bebida{
 
    public Bebida(String nome,double preco,int quantidade,String tipo, String descricao){
       this.nome= nome;
-      this.preco= preco;
-     this.quantidade= quantidade;
+      if(preco>0){
+         this.preco= preco;
+      }
+      if(quantidade>=0){
+         this.quantidade= quantidade;
+    }else{
+       System.out.println("Quantidade não pode ser menor que 0");
+    }
       this.tipo= tipo;
       this.descricao=descricao;
   }
