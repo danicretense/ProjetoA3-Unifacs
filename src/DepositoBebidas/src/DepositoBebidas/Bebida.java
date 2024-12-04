@@ -1,4 +1,5 @@
 package src.DepositoBebidas;
+import javax.swing.*;
 public class Bebida{
   private String nome;
   private double preco;
@@ -10,16 +11,21 @@ public class Bebida{
       this.nome= nome;
       if(preco>0){
          this.preco= preco;
+         
       }
       if(quantidade>=0){
          this.quantidade= quantidade;
     }else{
-       System.out.println("Quantidade não pode ser menor que 0");
+    	JOptionPane.showMessageDialog(null, 
+                "Quantia não pode ser menor que 0!", 
+                "Aviso", 
+                JOptionPane.WARNING_MESSAGE);
     }
       this.tipo= tipo;
       this.descricao=descricao;
+      JOptionPane.showMessageDialog(null, "Produto adicionado com sucesso!","Aviso",JOptionPane.INFORMATION_MESSAGE);
   }
-
+    @Override
    public String toString(){
 return "Nome da bebida: "+nome+"\nPreço: "+preco+"\nQuantidade: "+quantidade+"\nTipo: "+tipo+"\nDescrição: "+descricao;
    }
